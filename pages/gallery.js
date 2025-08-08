@@ -346,5 +346,32 @@ const Gallery = () => {
                       <Heart className={`w-5 h-5 ${favorites.includes(selectedImage.id) ? 'fill-current' : ''}`} />
                     </motion.button>
                     
+                                 <motion.button
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      onClick={() => handleDownload(selectedImage)}
+                      className="p-3 rounded-full backdrop-blur-sm bg-white/20 text-white hover:bg-white/30 transition-colors"
+                    >
+                      <Download className="w-5 h-5" />
+                    </motion.button>
+                    
                     <motion.button
                       whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      onClick={() => handleShare(selectedImage)}
+                      className="p-3 rounded-full backdrop-blur-sm bg-white/20 text-white hover:bg-white/30 transition-colors"
+                    >
+                      <Share2 className="w-5 h-5" />
+                    </motion.button>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+};
+
+export default Gallery;
