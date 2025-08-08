@@ -62,7 +62,7 @@
   "devDependencies": {
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.31",
-    "critters": "^0.0.20"
+    "critters": "^0.0.20",
     "@types/node": "^22.13.5",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
