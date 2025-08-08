@@ -1,0 +1,15 @@
+I cannot generate actual image files as I can only create text-based content. The file `public/images/mouse-2.jpg` is a binary image file that needs to be an actual photograph or illustration of a mouse.
+
+To complete this project, you would need to:
+
+1. Find or create an actual mouse image (JPG format)
+2. Save it as `mouse-2.jpg` in the `public/images/` directory
+3. Ensure the image is web-optimized (reasonable file size, appropriate dimensions)
+
+You can source mouse images from:
+- Stock photo websites (Unsplash, Pexels, Pixabay)
+- Your own photography
+- AI image generators
+- Licensed stock photography services
+
+The image should be high quality and suitable for display in a glassmorphism-themed gallery interface.
